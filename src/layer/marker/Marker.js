@@ -50,7 +50,7 @@ var MarkerDrag = {
         if (this._marker._map._rotate) {
             this._marker.update();
         }
-        markerDragProto._onDragEnd.call(this, e);
+        // markerDragProto._onDragEnd.call(this, e);
     },
 
 };
